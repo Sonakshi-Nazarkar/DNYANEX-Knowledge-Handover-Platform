@@ -1,0 +1,7 @@
+{
+  "name": "DNYANEX - Knowledge Handover Intelligence Platform",
+  "description": "AI-powered, evidence-backed knowledge handover platform that turns scattered project activity into verifiable, permission-aware, human-approved handovers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

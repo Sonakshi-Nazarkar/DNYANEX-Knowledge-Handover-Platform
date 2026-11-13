@@ -1,0 +1,1324 @@
+# MASTER BUILD DIRECTIVE: DNYANEX
+## Build an Award-Winning, AI-Powered Knowledge Handover Intelligence Platform
+
+You are not just a code generator. You are my complete autonomous engineering team consisting of:
+
+- Principal Software Architect
+- Senior Full-Stack Engineer
+- AI/LLM Engineer
+- Backend and Database Engineer
+- Cybersecurity Engineer
+- Senior UI/UX Designer
+- Product Manager
+- Quality Assurance Engineer
+- Hackathon Strategy Consultant
+
+Your mission is to DESIGN, ENGINEER, TEST AND DELIVER a fully functional, visually exceptional and technically impressive hackathon product named **DNYANEX**.
+
+This is a competitive hackathon project. We want to deliver a product that demonstrates genuine engineering quality, originality, reliability and real-world usefulness.
+
+Do not create a generic dashboard, ordinary CRUD application, static prototype or simple AI chatbot.
+
+Build a complete, usable product with a working end-to-end workflow.
+
+---
+
+# 1. OFFICIAL PROJECT IDENTITY
+
+Product Name: DNYANEX
+
+Tagline: Knowledge That Survives People.
+
+Product Category: AI-Powered Knowledge Handover and Project Intelligence Platform.
+
+Core Mission:
+
+Prevent critical organizational and project knowledge from disappearing when employees, developers, volunteers or student team members leave a project.
+
+Core Concept:
+
+DNYANEX transforms scattered project activity into a structured, evidence-backed, permission-aware and human-approved knowledge handover.
+
+Our fundamental philosophy:
+
+**A handover is NOT a summary. It is a collection of verifiable, reviewable claims.**
+
+Every important claim must have:
+
+1. A clear statement.
+2. A claim category.
+3. An exact supporting source.
+4. An original supporting quotation.
+5. A confidence or evidence status.
+6. A reviewer decision.
+7. A timestamp and audit history.
+
+A claim without evidence must never be presented as verified organisational truth.
+
+---
+
+# 2. READ AND FOLLOW THE ATTACHED HACKATHON PDF
+
+The attached PDF is the authoritative product specification.
+
+Read the complete document before implementation.
+
+Extract its:
+- Problem understanding
+- Target users
+- Product vision
+- Proposed solution
+- Fourteen-step workflow
+- MVP and future features
+- Technology stack
+- System architecture
+- Database design
+- API strategy
+- Team responsibilities
+- Three-round roadmap
+- Expected impact and KPIs
+- Privacy, security and trust requirements
+- Future scope
+
+Maintain consistency with the submitted proposal.
+
+Do not silently replace our original concept with another idea.
+
+Product name must consistently be DNYANEX.
+
+Our current hackathon phase is ROUND 2 – THE BUILD.
+
+Round 1 planning and proposal are completed.
+
+Our immediate objective is a functional, demonstrable MVP.
+
+Do not waste development time building every future feature.
+
+Prioritise the complete central workflow.
+
+---
+
+# 3. THE CORE PROBLEM
+
+When someone leaves a project, critical information remains scattered across:
+
+- GitHub commits
+- Pull requests
+- GitHub issues
+- Project documents
+- PDF files
+- Meeting notes
+- Task exports
+- Markdown files
+- CSV files
+- Communication records
+
+Traditional project tools store activities but often fail to preserve the reasoning behind decisions.
+
+Generic AI summarizers generate readable text but can:
+- Invent missing information.
+- Hide conflicting evidence.
+- Produce unsupported statements.
+- Expose confidential information.
+- Ignore responsibility and ownership.
+
+DNYANEX must solve these problems through evidence-first intelligence.
+
+---
+
+# 4. THE PRODUCT EXPERIENCE
+
+Build a premium, modern, responsive web application.
+
+The visual experience should feel like a sophisticated combination of:
+
+- Linear
+- Notion
+- Vercel
+- Stripe
+- Modern enterprise intelligence software
+
+Do not copy these products. Use them as quality references.
+
+## Visual Design System
+
+Design direction:
+
+- Premium dark navy and deep midnight background.
+- Clean white and subtle neutral surfaces.
+- Electric blue as the primary accent.
+- Teal for verified information.
+- Amber for uncertainty.
+- Red for conflicts and critical risks.
+- Subtle borders and sophisticated shadows.
+- Modern typography.
+- Carefully controlled animations.
+- Beautiful empty states.
+- Consistent spacing and alignment.
+- Excellent responsive layouts.
+
+Use a professional font such as Inter.
+
+Use Lucide icons.
+
+Use charts only when they communicate meaningful project information.
+
+Avoid:
+- Excessive gradients.
+- Random glowing elements.
+- Unnecessary animations.
+- Generic AI-generated dashboard layouts.
+- Fake analytics.
+- Fake activity.
+- Decorative features that do not work.
+
+The UI must be visually impressive but highly usable.
+
+Every button, navigation item, dropdown, filter, form and action must work.
+
+---
+
+# 5. APPLICATION STRUCTURE
+
+Build the following pages and modules.
+
+## A. Landing Page
+
+Create an exceptional product landing page.
+
+Include:
+
+- DNYANEX logo and branding.
+- Strong hero section.
+- Headline: "When People Leave, Knowledge Shouldn't."
+- Supporting explanation.
+- Primary CTA: Start Your Handover.
+- Secondary CTA: Explore How It Works.
+- Interactive workflow illustration.
+- Core product benefits.
+- Evidence-first product explanation.
+- Security and permission highlights.
+- A realistic product preview.
+- Footer.
+
+The landing page should immediately communicate the problem and the solution.
+
+## B. Authentication
+
+Implement:
+
+- Sign up
+- Login
+- Logout
+- Password reset
+- Session handling
+- Protected routes
+
+Use Supabase Auth.
+
+Do not build fake authentication.
+
+## C. Main Dashboard
+
+Display real information from the database.
+
+Include:
+
+- Total projects.
+- Connected sources.
+- Total extracted claims.
+- Verified claims.
+- Pending reviews.
+- Conflicting claims.
+- Missing evidence.
+- Published handovers.
+- Recent project activity.
+- Handover readiness indicator.
+
+Create meaningful charts for:
+
+- Claim verification status.
+- Project activity timeline.
+- Risk distribution.
+- Handover progress.
+
+Never invent dashboard metrics.
+
+Provide useful empty states when the database has no records.
+
+## D. Project Management
+
+Allow users to:
+
+- Create a project.
+- Edit project information.
+- View project details.
+- Add project members.
+- Assign roles.
+- Configure project permissions.
+- Connect data sources.
+- Start reconstruction.
+- View generated handovers.
+
+Roles:
+
+1. Owner
+2. Reviewer
+3. Incoming Member
+
+Implement permissions on the backend, not only the frontend.
+
+## E. Source Management
+
+Support two real data connectors in the MVP.
+
+### Connector 1: GitHub
+
+Use GitHub REST API.
+
+Allow an authorised user to connect a repository using a read-only fine-grained personal access token.
+
+Collect:
+
+- Repository metadata.
+- Recent commits.
+- Pull requests.
+- Pull request descriptions.
+- Issues.
+- Issue comments.
+- Relevant timestamps.
+- Author and assignee information.
+
+Display source connection status.
+
+Provide a source synchronisation action.
+
+Do not request unnecessary GitHub write permissions.
+
+Never expose tokens to the browser.
+
+Store secrets securely using environment variables or an appropriately protected server-side mechanism.
+
+### Connector 2: Document Upload
+
+Support:
+
+- PDF
+- DOCX
+- Markdown
+- TXT
+- CSV
+
+Use appropriate parsing libraries.
+
+Suggested Python libraries:
+
+- pypdf
+- python-docx
+- pandas
+- Standard Python Markdown and text processing
+
+Features:
+
+- Drag-and-drop upload.
+- File validation.
+- Upload progress.
+- Processing status.
+- Source preview.
+- Parsed text preview.
+- Error reporting.
+- Delete source with proper authorisation.
+
+For each source store:
+
+- Source ID.
+- Project ID.
+- Source type.
+- Original filename.
+- Access level.
+- Uploaded by.
+- Created timestamp.
+- Processing status.
+- Parsed content reference.
+
+Never assume that a file has been successfully processed until parsing succeeds.
+
+---
+
+# 6. THE MOST IMPORTANT MODULE: AI KNOWLEDGE RECONSTRUCTION
+
+This is the heart of DNYANEX.
+
+Implement a genuine AI-powered extraction pipeline using the Gemini API.
+
+Do not use scripted responses as the main extraction engine.
+
+## Step 1: Data Ingestion
+
+Collect authorised source information.
+
+Parse the content.
+
+Normalise text.
+
+Preserve:
+
+- Source identity.
+- Original filename or repository reference.
+- Commit, issue or pull request identifiers.
+- Timestamps.
+- Author metadata.
+- Source access level.
+
+## Step 2: Redaction
+
+Before sending content to the AI model:
+
+- Detect API keys.
+- Detect access tokens.
+- Mask sensitive credentials.
+- Mask unnecessary personal information.
+- Prevent secrets from appearing in logs.
+
+Never send raw secrets to the LLM.
+
+## Step 3: Chunking
+
+Split large documents into meaningful chunks.
+
+Each chunk must retain:
+
+- Source ID.
+- Chunk ID.
+- Source location.
+- Access level.
+- Relevant metadata.
+
+Do not lose source references during chunking.
+
+## Step 4: AI Claim Extraction
+
+Use Gemini API to extract structured claims.
+
+Claim categories:
+
+1. DECISION
+2. TASK
+3. OWNER
+4. RISK
+5. DEPENDENCY
+6. BLOCKER
+7. NEXT_ACTION
+8. OPEN_QUESTION
+9. RECURRING_PROBLEM
+10. CONTACT_OR_RESOURCE
+
+Ask Gemini to return valid structured JSON.
+
+Each claim should contain:
+
+{
+  "type": "DECISION",
+  "statement": "PostgreSQL was selected as the project database.",
+  "supporting_quote": "The team agreed to use PostgreSQL...",
+  "source_id": "source_identifier",
+  "source_location": "document section or GitHub issue reference",
+  "event_date": null,
+  "owner": null,
+  "confidence": "medium",
+  "reasoning": "The decision is explicitly mentioned in the source."
+}
+
+Treat this as a schema illustration. Implement strict validation and adapt fields to the database model.
+
+Important rules:
+
+- Never invent quotations.
+- Never invent owners.
+- Never invent dates.
+- Never invent completed tasks.
+- Never treat a suggestion as a confirmed decision.
+- Never infer facts from missing information.
+- If evidence is weak, flag uncertainty.
+- If the source does not support a claim, reject it.
+
+## Step 5: Evidence Verification Engine
+
+This must be deterministic code, not another LLM-generated assurance.
+
+For every extracted claim:
+
+1. Retrieve the original source text.
+2. Locate the exact supporting quotation.
+3. Verify that the quotation actually exists.
+4. Store the evidence reference.
+5. Drop or flag claims with unsupported quotations.
+
+Use normalised exact text matching as the initial validation method.
+
+For large text sources, use a carefully controlled matching strategy that still verifies the actual quoted text.
+
+The system must never mark an unsupported claim as verified.
+
+Display the original quote in the evidence viewer.
+
+Where possible, highlight the supporting text.
+
+## Step 6: Confidence and Uncertainty
+
+Use explicit statuses:
+
+- VERIFIED
+- INFERRED
+- CONFLICTING
+- MISSING_EVIDENCE
+- PENDING_REVIEW
+- APPROVED
+- REJECTED
+
+Do not confuse AI confidence with evidence verification.
+
+A claim with a matching quote is not automatically an approved organisational fact.
+
+Human approval remains mandatory.
+
+## Step 7: Conflict Detection
+
+Identify claims that disagree.
+
+Example:
+
+Source A: Launch date is 15 December.
+
+Source B: Launch date is 20 December.
+
+Display both claims side by side.
+
+Include:
+
+- Claim A.
+- Its supporting source.
+- Claim B.
+- Its supporting source.
+- Conflict explanation.
+- Reviewer resolution action.
+
+Never silently merge contradictory information.
+
+## Step 8: Missing Evidence Detection
+
+Identify important expected information that is not found.
+
+Examples:
+
+- No confirmed owner for an unresolved task.
+- No evidence of deployment status.
+- No confirmed deadline.
+- No documented recovery procedure.
+
+Mark these as missing evidence, not as facts.
+
+---
+
+# 7. THE CLAIM LEDGER
+
+This is our main differentiator.
+
+Build a dedicated Claim Ledger.
+
+Every claim should appear as a structured reviewable record.
+
+Display:
+
+- Claim statement.
+- Category.
+- Source.
+- Exact supporting quotation.
+- Evidence status.
+- Confidence level.
+- Assigned owner, if explicitly supported.
+- Event date, if supported.
+- Reviewer status.
+- Created timestamp.
+
+Provide:
+
+- Search.
+- Filters.
+- Category selection.
+- Status filtering.
+- Sorting.
+- Claim details.
+- Evidence viewer.
+- Edit.
+- Approve.
+- Reject.
+
+Build an excellent split-view experience:
+
+LEFT SIDE:
+Claim information and reviewer actions.
+
+RIGHT SIDE:
+Original source content with highlighted supporting quotation.
+
+Make this experience exceptionally polished.
+
+---
+
+# 8. PROJECT TIMELINE
+
+Create a chronological project timeline.
+
+Use verified and reviewable source-backed events.
+
+Display:
+
+- Decisions.
+- Major changes.
+- Pull requests.
+- Issues.
+- Milestones.
+- Important project events.
+
+Every event must open its source evidence.
+
+Do not fabricate dates or events.
+
+Clearly distinguish source dates from inferred dates.
+
+---
+
+# 9. RISK, DEPENDENCY AND BLOCKER ENGINE
+
+Create a useful project intelligence module.
+
+Identify:
+
+- Unfinished work.
+- Unassigned tasks.
+- Blocked tasks.
+- External dependencies.
+- Repeated issues.
+- Critical contacts.
+- Unresolved decisions.
+- Potential single-person knowledge dependencies.
+
+For every risk display:
+
+- Risk title.
+- Supporting evidence.
+- Why it matters.
+- Affected work.
+- Suggested next action.
+- Confidence or uncertainty status.
+
+Use rule-based logic wherever deterministic detection is possible.
+
+Use AI for candidate identification, not for pretending that unverified risks are established facts.
+
+---
+
+# 10. THE REVIEW DESK
+
+This is a critical product module.
+
+Build a professional review interface.
+
+A reviewer must be able to:
+
+- Inspect every claim.
+- Read supporting quotations.
+- Open original sources.
+- Approve a claim.
+- Edit a claim.
+- Reject a claim.
+- Resolve conflicting claims.
+- Add reviewer notes.
+
+All decisions must be stored.
+
+Create version history.
+
+Store:
+
+- Reviewer ID.
+- Previous value.
+- Updated value.
+- Action.
+- Timestamp.
+- Review note.
+
+Do not allow publication until all claims included in the handover have received an explicit reviewer decision.
+
+Unresolved conflicts must remain clearly visible and must not be silently presented as resolved.
+
+---
+
+# 11. ROLE-BASED HANDOVER GENERATOR
+
+Generate different handover views from the same approved claim ledger.
+
+Example roles:
+
+### Incoming Developer
+
+Display:
+
+- Architecture decisions.
+- Repository links.
+- Open pull requests.
+- Bugs.
+- Technical blockers.
+- Dependencies.
+- Next technical actions.
+
+### Project Manager
+
+Display:
+
+- Project status.
+- Responsibilities.
+- Deadlines supported by evidence.
+- Risks.
+- Dependencies.
+- Unresolved decisions.
+- Team commitments.
+
+### Incoming Student / Intern
+
+Display:
+
+- Project overview.
+- Completed work.
+- Pending work.
+- Important documents.
+- Assigned responsibilities.
+- First actions to take.
+
+IMPORTANT:
+
+Do not expose a claim to a user unless they are authorised to access every source supporting that claim.
+
+If one claim depends on multiple sources, all source permissions must be satisfied.
+
+Implement role filtering on the server.
+
+Do not rely on hidden frontend components as a security mechanism.
+
+---
+
+# 12. HANDOVER READINESS
+
+Create a visually impressive Handover Readiness indicator.
+
+Calculate it from real database records.
+
+Consider:
+
+- Evidence coverage.
+- Claims reviewed.
+- Unresolved conflicts.
+- Missing evidence.
+- Unassigned actions.
+- Pending approvals.
+
+Show the exact calculation and its underlying counts.
+
+Do not label a handover as ready if unresolved critical issues remain.
+
+The readiness indicator is an operational aid, not a substitute for human approval.
+
+---
+
+# 13. SECURE HANDOVER PUBLISHING
+
+Create a publication workflow.
+
+1. Reviewer opens a draft.
+2. Reviewer reviews the claims.
+3. Reviewer resolves or explicitly records outstanding issues.
+4. Reviewer approves the handover.
+5. System creates an immutable published version.
+6. Incoming member receives the role-filtered view.
+7. Incoming member acknowledges receipt.
+8. System records the acknowledgement.
+
+Implement:
+
+- Secure access checks.
+- Server-side role filtering.
+- Version history.
+- Audit logs.
+- Acknowledgement timestamps.
+
+No unapproved claim should be published as verified information.
+
+---
+
+# 14. INCOMING MEMBER EXPERIENCE
+
+Create a dedicated, simplified handover dashboard.
+
+The incoming person should immediately understand:
+
+1. What is happening in this project?
+2. What has already been completed?
+3. Who owns which responsibilities?
+4. What could go wrong?
+5. What remains unresolved?
+6. What should I do first?
+
+Include:
+
+- Project overview.
+- Key decisions.
+- My responsibilities.
+- Open tasks.
+- Blockers.
+- Risks.
+- Important dependencies.
+- Source links.
+- First-days action plan.
+- Acknowledge receipt button.
+
+This page must be understandable without a detailed explanation from the previous team member.
+
+---
+
+# 15. ADVANCED USER EXPERIENCE
+
+Implement a polished and consistent design across the application.
+
+Include:
+
+- Sidebar navigation.
+- Responsive dashboard.
+- Breadcrumbs.
+- Loading skeletons.
+- Toast notifications.
+- Confirmation dialogs.
+- Search and filters.
+- Accessible forms.
+- Error boundaries.
+- Useful empty states.
+- Clear processing states.
+- Responsive mobile layout.
+
+Add meaningful micro-interactions.
+
+Avoid animations that slow down important workflows.
+
+Make the application feel like a real SaaS product.
+
+---
+
+# 16. TECHNICAL ARCHITECTURE
+
+Follow the architecture from our proposal.
+
+## Frontend
+
+Next.js with React and Tailwind CSS.
+
+Responsibilities:
+
+- Landing page.
+- Authentication UI.
+- Dashboard.
+- Project management.
+- Source management.
+- Claim ledger.
+- Evidence viewer.
+- Review desk.
+- Timeline.
+- Handover views.
+
+## Backend
+
+Python FastAPI.
+
+Responsibilities:
+
+- Authentication verification.
+- Project APIs.
+- GitHub connector.
+- File processing.
+- Text extraction.
+- AI extraction.
+- Quote verification.
+- Conflict detection.
+- Gap detection.
+- Claim review.
+- Handover generation.
+- Permission filtering.
+- Audit logging.
+
+## Database
+
+Supabase PostgreSQL.
+
+Use pgvector if semantic retrieval is needed.
+
+Use proper relational modelling.
+
+Suggested tables:
+
+- profiles
+- projects
+- project_members
+- sources
+- artifacts
+- claims
+- evidence
+- claim_reviews
+- conflicts
+- handovers
+- handover_claims
+- acknowledgements
+- audit_logs
+
+Include:
+
+- Foreign keys.
+- Appropriate indexes.
+- Timestamps.
+- Constraints.
+- Row-level security policies.
+- Project ownership checks.
+
+Do not store sensitive tokens in public tables.
+
+## AI
+
+Gemini API through a backend provider interface.
+
+Use structured JSON output.
+
+Add:
+- Schema validation.
+- Retry handling.
+- Rate-limit handling.
+- Error handling.
+- Model configuration through environment variables.
+
+The AI model must not control access permissions or approve claims.
+
+## External integrations
+
+GitHub REST API with authorised read-only credentials.
+
+Document upload with supported parsing libraries.
+
+Do not invent integrations.
+
+---
+
+# 17. API DESIGN
+
+Implement and document these core endpoints:
+
+POST /projects
+
+POST /projects/{id}/sources
+
+POST /projects/{id}/reconstruct
+
+GET /projects/{id}/claims
+
+PATCH /claims/{id}
+
+POST /projects/{id}/handovers
+
+GET /handovers/{id}
+
+POST /handovers/{id}/acknowledge
+
+Add additional endpoints where necessary.
+
+Every endpoint must validate authentication, project membership, role permissions and input data.
+
+Return meaningful HTTP status codes and error messages.
+
+Never trust a project ID supplied by the browser without verifying access.
+
+---
+
+# 18. SECURITY REQUIREMENTS
+
+Security is part of the product, not a final decoration.
+
+Implement:
+
+- Supabase authentication.
+- Server-side permission checks.
+- PostgreSQL row-level security.
+- Read-only GitHub access.
+- Environment-based secret management.
+- Input validation.
+- File type and size validation.
+- Secure API error handling.
+- Secret redaction.
+- Audit logs.
+- Restricted source visibility.
+
+Prevent:
+
+- Unauthorised project access.
+- Cross-project data leakage.
+- Token exposure.
+- Prompt injection through uploaded documents.
+- Untrusted source text being treated as system instructions.
+- Restricted information appearing in another role's handover.
+
+Use synthetic data for public demonstrations.
+
+---
+
+# 19. THREE-ROUND ROADMAP
+
+Respect the original hackathon roadmap.
+
+ROUND 1 – PLANNING:
+Completed.
+
+ROUND 2 – THE BUILD:
+Current priority.
+
+Deliver:
+
+- Functional frontend.
+- FastAPI backend.
+- Supabase database.
+- Real file ingestion.
+- GitHub integration.
+- Gemini-powered extraction.
+- Evidence verification.
+- Claim Ledger.
+- Conflict and gap detection.
+- Human review.
+- Role-based handover.
+- Working deployment.
+- Public source repository, subject to event rules.
+
+ROUND 3 – FINAL PRODUCT AND PITCH:
+
+Prepare these three substantial improvements:
+
+1. Advanced AI Knowledge Assistant with cited answers from approved claims.
+2. Automatic redaction and handover version comparison.
+3. Scheduled source refresh and change alerts.
+
+Also prepare:
+
+- Integration testing.
+- Security testing.
+- Permission testing.
+- Bug fixing.
+- Final presentation.
+- Live demonstration.
+
+Do not claim future features are already implemented.
+
+---
+
+# 20. DEMO MODE – JUDGE IMPRESSION
+
+Create a dedicated Demo Mode using clearly labelled synthetic project data.
+
+Create a realistic fictional software project.
+
+Example:
+
+Project: CampusConnect
+
+Scenario:
+
+A backend developer leaves the team before the project release.
+
+Seed synthetic sources containing:
+
+- Database architecture decision.
+- Open GitHub issue.
+- Unfinished payment feature.
+- Pending pull request.
+- Missing task owner.
+- Conflicting release dates.
+- External service dependency.
+- An unresolved deployment question.
+
+Make sure the synthetic data demonstrates all core capabilities.
+
+When a judge opens Demo Mode, provide an obvious guided path:
+
+1. Explore project.
+2. Inspect connected sources.
+3. Run reconstruction.
+4. Explore the claim ledger.
+5. Open exact evidence.
+6. Inspect a conflict.
+7. Review and approve claims.
+8. Generate a role-specific handover.
+9. Switch to incoming member view.
+10. Acknowledge receipt.
+
+Demo data must behave like actual application data.
+
+Do not fake the AI extraction result.
+
+If the AI service is unavailable, display a clear error or explicitly labelled pre-generated synthetic demo results. Never pretend a live AI operation succeeded.
+
+Do not use real personal data or confidential repositories in the demo.
+
+---
+
+# 21. QUALITY ASSURANCE
+
+Act as a strict QA engineer.
+
+Test:
+
+- Registration and login.
+- Project creation.
+- Source uploads.
+- Invalid file rejection.
+- GitHub connection.
+- AI extraction.
+- JSON validation.
+- Quote verification.
+- Unsupported claim rejection.
+- Conflict detection.
+- Missing evidence.
+- Claim editing.
+- Approval and rejection.
+- Version history.
+- Role-based access.
+- Secure publication.
+- Incoming member acknowledgement.
+
+Test both successful and failure scenarios.
+
+Create test cases for:
+
+- Unauthenticated users.
+- Users outside a project.
+- Reviewers.
+- Incoming members.
+- Restricted sources.
+- Conflicting claims.
+- Missing quotations.
+- Expired GitHub tokens.
+- AI API errors.
+- Invalid uploads.
+
+Fix critical bugs before considering the product complete.
+
+---
+
+# 22. DEVELOPMENT EXECUTION RULES
+
+This is extremely important.
+
+Do not respond with only an implementation plan.
+
+Actually build the product.
+
+Follow this sequence:
+
+PHASE 1: INSPECT
+
+- Inspect the existing workspace.
+- Identify the existing frontend and backend.
+- Read existing source files.
+- Identify already implemented features.
+- Identify broken functionality.
+- Preserve useful existing code.
+- Do not destroy the existing project unnecessarily.
+
+PHASE 2: PLAN
+
+Create a concise implementation plan.
+
+Identify:
+- Existing code to preserve.
+- Missing modules.
+- Required database migrations.
+- Required environment variables.
+- Integration dependencies.
+
+PHASE 3: BUILD
+
+Implement the application in logical modules.
+
+Create a consistent frontend and backend.
+
+Connect the real database.
+
+Implement the real AI extraction pipeline.
+
+Connect the two MVP source connectors.
+
+Build the evidence verification engine.
+
+Implement permissions and human review.
+
+PHASE 4: TEST
+
+Run the application.
+
+Install dependencies.
+
+Run database migrations.
+
+Run frontend and backend checks.
+
+Fix compilation errors.
+
+Fix runtime errors.
+
+Test critical user journeys.
+
+PHASE 5: POLISH
+
+Improve:
+- UI consistency.
+- Responsive design.
+- Accessibility.
+- Error handling.
+- Performance.
+- Demo experience.
+
+PHASE 6: DOCUMENT
+
+Create:
+
+- README.md
+- SETUP.md
+- ARCHITECTURE.md
+- API documentation.
+- .env.example
+- Database migration files.
+- Testing documentation.
+- Demo instructions.
+
+Do not put real API keys in documentation.
+
+---
+
+# 23. NON-NEGOTIABLE ENGINEERING RULES
+
+1. Never generate a static-only application.
+2. Never use fake buttons or non-functional navigation.
+3. Never hardcode fake dashboard metrics.
+4. Never pretend an API integration is working if it is not.
+5. Never fabricate source quotations.
+6. Never mark unsupported claims as verified.
+7. Never publish without human approval.
+8. Never trust frontend-only permission checks.
+9. Never expose secrets in browser code.
+10. Never overwrite useful existing code without inspection.
+11. Never use real confidential data in public demonstrations.
+12. Never sacrifice the central workflow for decorative features.
+13. Never claim that testing passed unless tests were actually executed.
+14. Never leave critical errors unresolved.
+15. Do not ask me to manually implement features that you can implement in the workspace.
+
+If a required API key is unavailable:
+
+- Implement the integration correctly.
+- Create environment variable placeholders.
+- Provide setup instructions.
+- Explain exactly what needs configuration.
+- Continue implementing other independent modules.
+
+If a technical requirement is blocked, document the blocker and implement the safest feasible alternative without misrepresenting functionality.
+
+---
+
+# 24. DEFINITION OF DONE
+
+The product is not complete just because the homepage looks attractive.
+
+The central user journey must work:
+
+A user signs in
+→ Creates a project
+→ Connects a GitHub repository or uploads documents
+→ System ingests authorised content
+→ Gemini extracts structured claims
+→ Verification engine checks exact quotations
+→ Conflicts and missing evidence are identified
+→ Reviewer inspects and approves claims
+→ Handover is generated for a specific role
+→ Server enforces permissions
+→ Incoming member receives the approved handover
+→ Incoming member acknowledges receipt.
+
+Every step must be demonstrable.
+
+---
+
+# 25. FINAL HACKATHON DELIVERABLES
+
+Prepare the following:
+
+1. Fully working DNYANEX web application.
+2. Professional responsive interface.
+3. Working frontend and backend integration.
+4. Real Supabase database integration.
+5. Real Gemini API integration.
+6. GitHub and document ingestion.
+7. Evidence-linked claim ledger.
+8. Conflict and missing evidence detection.
+9. Review and approval workflow.
+10. Role-based secure handover.
+11. Synthetic judge demo.
+12. Deployed application, when credentials and hosting access are available.
+13. Public GitHub repository, when authorised.
+14. Updated technical documentation.
+15. Testing results.
+16. Round 3 improvement roadmap.
+
+At the end, provide a clear implementation report:
+
+- What is completed?
+- What is partially completed?
+- What remains?
+- Which APIs are connected?
+- Which environment variables are required?
+- What tests were executed?
+- What deployment steps remain?
+- What should the team demonstrate to judges?
+
+---
+
+# FINAL INSTRUCTION
+
+Think like an engineering team building a product that real organisations could use.
+
+Our goal is not to impress judges with animations or buzzwords.
+
+Our goal is to impress them with an extraordinary combination of:
+
+- Product thinking.
+- Technical depth.
+- Trustworthy AI.
+- Exact evidence traceability.
+- Responsible access control.
+- Human accountability.
+- Excellent user experience.
+- A working end-to-end demonstration.
+
+Build DNYANEX with precision, creativity and engineering discipline.
+
+Start by inspecting the existing project and the attached proposal PDF.
+
+Then begin implementation.
+
+**DO NOT STOP AFTER GENERATING A PLAN. BUILD THE ACTUAL PRODUCT.**
+
+Make every technical and design decision serve the central mission:
+
+"Knowledge should never disappear just because a person leaves."
+
+DNYANEX — Knowledge That Survives People.
